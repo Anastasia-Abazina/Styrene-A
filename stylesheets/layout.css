@@ -595,7 +595,7 @@ body{
 }
 .style2 p { 
     color:  #0029FF;
-    font-family: Styrene A Web;
+    font-family: Regular;
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
@@ -614,7 +614,7 @@ body{
 .drums p {
     color: #000;
     top: 15px;
-    font-family:'Styrene A Web';
+    font-family:Bold;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
