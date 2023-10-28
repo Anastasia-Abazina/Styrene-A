@@ -1,0 +1,929 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scene {
+    width: 1440px;
+    height: 800px;
+    background-color: #0029FF;
+    background-image: url(../img/scena.svg);
+}
+.blockyears {
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.years {
+    width: 1340px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: -56px;
+}
+.years > div {
+    width: 216px;
+    height: 166px;
+    background-color: #FF5C00;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.years h2 {
+    font-family: 'Bold';
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.blockcreators {
+    display: flex;
+    justify-content:end;
+    margin-right: 50px;
+    margin-left: 50px;
+} 
+.creators{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 56px;
+}
+.creators > div {
+    width: 280px;
+    height: 50px;
+    background-color: #FF5C00;
+    border: 3px solid #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.creators h4 {
+    font-family: Medium;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.banner {
+    width: 471px;
+    height: 262px;
+    border: 3px solid #FFF;
+    background: #FF5C00;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 404px;
+    margin-left: 482px;
+}
+.banner h1 {
+    color: #FFF;
+    font-family: 'Medium';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+ .speakers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: absolute;
+ }
+ .speakers {
+    position: absolute;
+    margin-top: -225px;
+    margin-left: 515px;
+ }
+ /* Информация */
+.info {
+    width: 1440px;
+    height: 480px;
+}
+.infoconten {
+    width: 1440px;
+    height: 480px;
+}
+.grouptext {
+    width: 1062px;
+    display: flex;
+    flex-direction: column;
+}
+.infotext {
+    width: 1051px;
+    height: 280px;
+    border: 3px solid #000;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+.infotext p {
+    color: #0E0E0E;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.historytext {
+    width: 1051px;
+    height: 200px;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -3px;
+    margin-left: 50px;
+}
+.historytext p {
+    color:#0E0E0E;
+    font-family: 'Regular';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 50px;
+   
+}
+.historytext img {
+    width: 200px;
+    height: 200px;
+}
+.zero {
+    width: 280px;
+    height: 483px;
+    border: 3px solid #000;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -505px;
+    margin-left: 1104px;
+}
+.barocode {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+/* Начертания */
+.textstyle {
+    width: 1340px;
+    height: 1500px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title p {
+   color: #000;
+   font-family: Medium;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   margin-top: 120px;
+   margin-left: 0px;
+}
+.ticket {
+    position: relative;
+    margin-top: 80px;
+    margin-left:30px;
+}
+.ticket p {
+    position: absolute;
+    top: 0px;
+    right: 268px;
+    color: #FFF;
+    font-family:'Thin';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    position: absolute;
+    margin-right: 540px;
+}
+.ticket1 {
+    position: relative;
+    margin-left: 80px;
+    margin-top: -20px;
+}
+.ticket1 p {
+    position: absolute;
+    top: 50px;
+    transform: rotate(-5deg);
+    margin-left: 200px;
+    color:#0E0E0E;
+    font-family: 'ThinItalic';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.ticket2 {
+    position: relative;
+    margin-left: 490px;
+    margin-top: -50px;
+}
+
+.ticket2 p {
+    position: absolute;
+    top: 0px;
+    left: 305px;
+    color: #ffffff;
+    font-family:'Light';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.ticket3 {
+    position: relative;
+    margin-left: 220px;
+    margin-top: -20px;
+}
+
+.ticket3 p {
+    position: absolute;
+    top: 25px;
+    transform: rotate(-3deg);
+    left: 305px;
+    color: #ffffff;
+    font-family:'LightItalic';
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+.ticket4 {
+    position: relative;
+    margin-left: 390px;
+    margin-top: -20px;
+}
+
+.ticket4 p {
+    position: absolute;
+    top: 15px;
+    transform: rotate(3deg);
+    left: 220px;
+    color:#0E0E0E;
+    font-family:'Regular';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;}
+
+    .ticket5 {
+    position:absolute;
+    z-index: -1;
+    margin-left: 0px;
+    margin-top: -40px;
+}
+
+.ticket5 p {
+    position: absolute;
+    top: 35px;
+    transform: rotate(-5deg);
+    left: 220px;
+    color:#FFF;
+    font-family:'Italic';
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.ticket6 {
+    position: absolute;
+    z-index: -5;
+    margin-left: 430px;
+    margin-top: 20px;
+}
+
+.ticket6 p {
+    position: absolute;
+    top: 20px;
+    transform: rotate(3deg);
+    left: 270px;
+    color:#FFF;
+    font-family:'Medium';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: normal;
+}
+.ticket7 {
+    position: relative;
+    margin-left: 65px;
+    margin-top: 120px;
+}
+
+.ticket7 p {
+    position: absolute;
+    top: 5px;
+    transform: rotate(-1deg);
+    left: 270px;
+    color: #0E0E0E;
+    font-family: 'MediumItalic';
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;}
+
+.ticket8 {
+    position: relative;
+    margin-left: 450px;
+    margin-top: -20px;
+}
+.ticket8 p {
+    position: absolute;
+    top: 35px;
+    transform: rotate(4deg);
+    left: 420px;
+    color: #FFF;
+    font-family:  'Bold';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ticket9 {
+    position: relative;
+    margin-left: 250px;
+    margin-top: -30px;
+}
+.ticket9 p {
+    position: absolute;
+    top: 0px;
+    left: 300px;
+    color: #0E0E0E;
+    font-family: 'BoldItalic';
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+.ticket10 {
+    position: absolute;
+    z-index:-1;
+    margin-left: 0px;
+    margin-top: -30px;
+}
+.ticket10 p {
+    position: absolute;
+    top: 40px;
+    transform: rotate(-5deg);
+    left: 370px;
+    color: #FFF;
+    font-family: 'Black';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.ticket11 {
+    position: absolute;
+    z-index:-5;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+.ticket11 p {
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    color: #FFF;
+    font-family: 'BlackItalic';
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+}
+.italic_style {
+    position: relative;
+    margin-top: 210px;
+    margin-left: 0px;
+}
+.A {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: -90px;
+}
+.Thin_A {
+    color:#FF5C00;
+    font-family: 'ThinItalic';
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: 57px;
+}
+.Light_A {
+    color:#FF5C00;
+    font-family: 'LightItalic';
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: 13px;
+}
+.Italic_A {
+    color:#FF5C00;
+    font-family: 'Italic';
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: 11px;
+}
+.Medium_A {
+    color:#FF5C00;
+    font-family: 'MediumItalic';
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: 5px;
+}
+.Bold_A {
+    color:#FF5C00;
+    font-family: 'BoldItalic';
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+    margin-left: 4px;
+}
+.Black_A {
+    color:#FF5C00;
+    font-family: 'BlackItalic';
+    font-size: 300px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+}
+.NameItalic {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    margin: auto;
+    left: 120px;
+    gap: 150px;
+}
+.Thin_N {
+    font-family: 'ThinItalic';
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.Light_N {
+    font-family: 'LightItalic';
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.Italic_N {
+    font-family: 'Italic';
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.Medium_N {
+    font-family: 'MediumItalic';
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.Bold_N {
+    font-family: 'BoldItalic';
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+.Black_N {
+    font-family: 'BlackItalic';
+    color: #797979;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Особенности шрифта */
+.Font_Features {
+    width: 1440px;
+    height: 1660px;
+}
+.title p {
+    color: #000;
+    top: 15px;
+    font-family:Bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.drumstick {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.textdrum {
+    color: #FFF;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+.textdrum1 {
+    position: absolute;
+    top: -340px;
+    transform: rotate(4deg);
+    margin-left: 527px;
+}
+.textdrum2 {
+    position: absolute;
+    top: -180px;
+    margin-left: 512px;
+}
+.textdrum3 {
+    position: absolute;
+    top: -65px;
+    margin-left: 580px;
+}
+.guitar {
+    margin-top: 80px;
+    width: 1440px;
+    height:1028px;
+    background-image: url(../img/guitar005.svg);
+    display: flex;
+    justify-content: center;
+}
+.fest { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fest p {
+    color: #FFF;
+    font-family: Styrene A Web;
+    font-size: 300px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -20px;
+}
+.style2 p { 
+    color:  #0029FF;
+    font-family: Styrene A Web;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-left: 700px;
+    margin-top: -70px;
+}
+/* Глифы и дроби (заверстаны как svg,
+ с приминением шрифта выглядили неккоректно*/
+.drums {
+    width: 1340px;
+    height: 686px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.drums p {
+    color: #000;
+    top: 15px;
+    font-family:'Styrene A Web';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 120px;
+}
+.drums1 {
+   margin-top: 80px;
+   flex-direction: column-reverse;
+}
+.glyph1 {
+    margin-top: -250px;
+    margin-left: 360px;
+}
+.glyph2 {
+    margin-top: -320px;
+    margin-left: 44px;
+}
+.glyph3 {
+    margin-top: 160px;
+    margin-left: 460px;
+}
+.glyph4 {
+    margin-top: 15px;
+    margin-left: 480px;
+}
+.glyph5 {
+    margin-top: -350px;
+    margin-left: 140px;
+}
+.glyph6 {
+    margin-top: 260px;
+    margin-left: 350px;
+}
+.fraction1 {
+    margin-top: -120px;
+    margin-left: 720px;
+}
+.fraction2 {
+    margin-top: -30px;
+    margin-left: 790px;
+}
+.fraction3 {
+   margin-top: -50px; 
+   margin-left: 690px;
+}
+.fraction4 {
+    margin-top: -5px;
+    margin-left: 780px;
+}
+/* Языки */
+.languages {
+    width: 1440px;
+    margin-top: 120px;
+    /*margin-right: 50px;*/
+    /*width:100%;*/
+    /*height: 1155px;*/
+}
+.languageheader p {
+    padding-left: 50px;
+    color: #000;
+    font-family: 'Bold';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mediators{
+    width: 100%;
+    min-height: 1156px;
+    position: relative;
+}
+.mediators img{
+    position: absolute;
+}
+.mediator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 281px;
+    height: 324px;
+    position: absolute;
+}
+.mediator.white{
+    background: url("../img/mediatorWhite.svg");
+    background-repeat: no-repeat;
+}
+.mediator.white p{
+    color:#0E0E0E;
+    font-family: Regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mediator.blue p, .mediator.orange p{
+    color: #FFF;
+    /* Текст 3 */
+    font-family: Regular;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.mediator.blue{
+    background: url("../img/mediatorBlue.svg");
+    background-repeat: no-repeat;
+}
+.mediator.orange{
+    background: url("../img/mediatorOrange.svg");
+    background-repeat: no-repeat;
+}
+.Polski p {
+    transform: rotate(-7deg);
+    color: #0E0E0E;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -800px;
+    margin-left: 180px;
+
+}
+.Français p {
+    transform: rotate(-14deg);
+    color: #FFF;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 579px;
+}
+.Svenska p {
+    transform: rotate(-30deg);
+    color: #FFF;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 579px;
+}
+.Русский p {
+    transform: rotate(-35deg);
+    color: #FFF;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 579px;
+}
+.Español {
+    transform: rotate(72deg);
+    color: #FFF;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 579px;
+}
+.Deutsch p {
+    transform: rotate(-45deg);
+    color: #0E0E0E;
+    font-family: 'Regular';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+    margin-left: 579px;
+}
+/* Билет */
+.ticket000 {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 660px;
+    height: 1098px;
+    background-image: url(../img/билет2.svg);
+}
+.ticket-container{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.ticket000{
+    padding: 40px 48px;
+    box-sizing: border-box;
+}
+.ticket-container .ticket000 .title{
+    color:#0029FF;
+    width: 100%;
+    text-align: center;
+    font-family: Medium;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 22px;
+}
+.ticket000 .description{
+    margin-bottom: 80px;
+}
+.ticket000 .description p{
+    color:#0029FF;
+    font-family: Medium;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ticket000 .artists .title{
+    text-align: start;
+    color:#0029FF;
+    font-family: Bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.ticket000 .artists .list{
+    color:#0E0E0E;
+    font-family: Bold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ticket000 .footer-title{
+    margin-top: 50px;
+    color:#0029FF;
+    text-align: center;
+    font-family: Bold;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    text-transform: uppercase;
+}
+.kombik{
+    position: absolute;
+    right: 10px;
+    bottom: -30px
+}
+.kombik .container{
+    position: relative;
+}
+.kombik .title{
+    position: absolute;
+    right: 65px;
+    color: #FFF;
+    font-family: Medium;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    bottom: 150px;
+    rotate: -9.42deg;
+}
+footer{
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 80px 44px;
+    background: #0029FF;
+    margin-top: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .name{
+    color: #FFF;
+    font-family: Light;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+
+

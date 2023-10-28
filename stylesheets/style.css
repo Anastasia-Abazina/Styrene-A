@@ -1,0 +1,50 @@
+@import url('reset.css');
+@import url('layout.css');
+@font-face {
+    font-family: 'Black';
+    src: url(../fonts/StyreneAWeb-Black.ttf);
+}
+@font-face {
+    font-family: 'BlackItalic';
+    src: url(../fonts/StyreneAWeb-BlackItalic.ttf);
+}
+@font-face {
+    font-family: 'Bold';
+    src: url(../fonts/StyreneAWeb-Bold.ttf);
+}
+@font-face {
+    font-family: 'BoldItalic';
+    src: url(../fonts/StyreneAWeb-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Italic';
+    src: url(../fonts/StyreneAWeb-Italic.ttf);
+}
+@font-face {
+    font-family: 'Light';
+    src: url(../fonts/StyreneAWeb-Light.ttf);
+}
+@font-face {
+    font-family: 'LightItalic';
+    src: url(../fonts/StyreneAWeb-LightItalic.ttf);
+}
+@font-face {
+    font-family: 'Medium';
+    src: url(../fonts/StyreneAWeb-Medium.ttf);
+}
+@font-face {
+    font-family: 'MediumItalic';
+    src: url(../fonts/StyreneAWeb-MediumItalic.ttf);
+}
+@font-face {
+    font-family: 'Regular';
+    src: url(../fonts/StyreneAWeb-Regular.ttf);
+}
+@font-face {
+    font-family: 'Thin';
+    src: url(../fonts/StyreneAWeb-Thin.ttf);
+}
+@font-face {
+    font-family: 'ThinItalic';
+    src: url(../fonts/StyreneAWeb-ThinItalic.ttf);
+}
